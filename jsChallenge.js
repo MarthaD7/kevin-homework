@@ -11,6 +11,12 @@
  * Try to make the solution as efficient as possible. a "for" loop may not be the most efficeint way.
  */
 
+let num = 0;
+while (num <= 10) { // the condition/Boolean condition is (num <= 10) which is an expression that will result in an answer of true or false. Figured it out by googling the way Kevin said and it was on FreeCode
+    console.log(num);
+    num += 2;
+}
+
 //Challenge 2:
 // Create a function that reverses an array
 const reverseThis = [1, 'b', 'horse', { name: "Kevin" }, [0, 1, 2]];
