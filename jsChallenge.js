@@ -20,6 +20,14 @@ while (num <= 10) { // the condition/Boolean condition is (num <= 10) which is a
 //Challenge 2:
 // Create a function that reverses an array
 const reverseThis = [1, 'b', 'horse', { name: "Kevin" }, [0, 1, 2]];
+reverseThis[0] = [0, 1, 2],
+    reverseThis[1] = { name: "Kevin" },
+    reverseThis[2] = 'horse',
+    reverseThis[3] = 'b',
+    reverseThis[4] = 1;
+
+console.log(reverseThis);
+
 
 //
 //Challenge 3:
