@@ -33,6 +33,13 @@ console.log(reverseThis);
 //Challenge 3:
 // Sort an array from lowest to highest
 const sortThis = [1, 123, 67342, 2, 43, 64];
+sortThis[1] = 2,
+    sortThis[2] = 43,
+    sortThis[3] = 64,
+    sortThis[4] = 123,
+    sortThis[5] = 67342;
+
+console.log(sortThis);
 
 
 //Challenge 4:
