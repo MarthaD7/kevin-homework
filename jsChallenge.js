@@ -44,7 +44,9 @@ console.log(sortThis);
 
 //Challenge 4:
 // Remove the spaces found in this string
-const stringSpaces = 'hello, my name is, PICKLES!!';
+const stringSpaces = "hello, my name is, PICKLES!!";
+const noSpaces = stringSpaces.replace(/\s/g, '');
+console.log(noSpaces);
 
 //Challenge 5:
 // Create a function that filters out odd numbers
