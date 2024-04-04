@@ -12,7 +12,7 @@
  */
 
 let num = 0;
-while (num <= 10) { // the condition/Boolean condition is (num <= 10) which is an expression that will result in an answer of true or false. Figured it out by googling the way Kevin said and it was on FreeCode
+while (num <= 10) { // the condition/Boolean condition is (num <= 10) which is an expression that will result in an answer of true or false. 
     console.log(num);
     num += 2;
 }
@@ -20,11 +20,8 @@ while (num <= 10) { // the condition/Boolean condition is (num <= 10) which is a
 //Challenge 2:
 // Create a function that reverses an array
 const reverseThis = [1, 'b', 'horse', { name: "Kevin" }, [0, 1, 2]];
-reverseThis[0] = [0, 1, 2],
-    reverseThis[1] = { name: "Kevin" },
-    reverseThis[2] = 'horse',
-    reverseThis[3] = 'b',
-    reverseThis[4] = 1;
+
+reverseThis.reverse();
 
 console.log(reverseThis);
 
@@ -57,6 +54,8 @@ const arr = [1, 2, 3, 4, 5, 6, 7, 8, 9, 10];
 const filterNeg = (arr) => {
 
     return newArr;
-}
 
+};
+
+console.log(filterNeg());
 // result should be [2, 4, 6, 8, 10];
